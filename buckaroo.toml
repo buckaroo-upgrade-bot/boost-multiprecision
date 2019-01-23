@@ -15,3 +15,7 @@ version = "branch=master"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-smart_ptr"
 version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-rational"
+version = "branch=master"

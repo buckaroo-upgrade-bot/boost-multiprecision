@@ -1,4 +1,4 @@
-manifest = "42cf781436cf473904abe1afb195ba26de4437ede903c4f6528884a63e1de2c7"
+manifest = "8b438fca3f6c58f3d29415087dedddf31c51b8e48a56951573ed116aced7951f"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
@@ -11,6 +11,10 @@ target = "//:functional"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-lexical_cast"
 target = "//:lexical-cast"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-rational"
+target = "//:rational"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-smart_ptr"
@@ -115,6 +119,10 @@ revision = "a70772bbd315eb597c3f1e359af742dde46a6f37"
 [lock."github.com/buckaroo-pm/boost-range"]
 versions = [ "branch=master" ]
 revision = "10482c9459133c139137e459d8e1051246866983"
+
+[lock."github.com/buckaroo-pm/boost-rational"]
+versions = [ "branch=master" ]
+revision = "7a75e06a78e0481cb636412a62764f628ec8e56b"
 
 [lock."github.com/buckaroo-pm/boost-smart_ptr"]
 versions = [ "branch=master" ]
