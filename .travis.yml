@@ -15,7 +15,7 @@ os:
   - osx
 
 env:
-  - BUCKAROO_VERSION=buckaroo-redux-alpha-15
+  - BUCKAROO_VERSION=v2.0.0
 
 cache:
   directories:
